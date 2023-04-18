@@ -45,6 +45,10 @@ while (true)
             break;
 
         case 4:
+            if (a==0 || b==0){
+                Console.WriteLine("Ошибка");
+                break;
+            }
             otvet = a / b;
             Console.WriteLine("Результат операции= " + otvet);
             break;
